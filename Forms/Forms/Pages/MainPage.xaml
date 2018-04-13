@@ -13,6 +13,7 @@
                 HorizontalOptions="CenterAndExpand"
                 VerticalOptions="Start"
                 HeightRequest="45"
+                Margin="0, 20, 0, 0"
                 Text="Go to images"
                 Clicked="Images_Clicked" />
         </StackLayout>

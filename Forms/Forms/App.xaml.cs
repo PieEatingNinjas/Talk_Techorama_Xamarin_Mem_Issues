@@ -12,10 +12,7 @@ namespace Ordina.Techorama.Memory.XamForms
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage())
-            {
-                BarBackgroundColor = Color.Blue
-            };
+            MainPage = new NavigationPage(new MainPage());
         }
     }
 }
