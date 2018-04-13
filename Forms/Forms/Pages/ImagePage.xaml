@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Ordina.Techorama.Memory.XamForms.Pages.ImagePage"
+    Title="Images">
+    <ContentPage.Content>
+        <ScrollView
+            Orientation="Vertical"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="Start">
+            <StackLayout
+                Orientation="Vertical"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="StartAndExpand">
+                <Button
+                    x:Name="NextButton"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="Start"
+                    HeightRequest="45"
+                    Margin="0, 20, 0, 20"
+                    Text="Next" />
+                <StackLayout
+                    x:Name="ImageContainer"
+                    Orientation="Vertical"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="StartAndExpand" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
