@@ -1,10 +1,8 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>CFBundleDisplayName</key>
-	<string>Ordina.Techorama.memory.XamForms</string>
-	<key>CFBundleName</key>
 	<string>Ordina.Techorama.memory.XamForms</string>
 	<key>CFBundleIdentifier</key>
 	<string>be.ordina.Ordina-Techorama-memory-XamForms</string>
@@ -42,5 +40,7 @@
 	</array>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>CFBundleName</key>
+	<string>Forms demo</string>
 </dict>
 </plist>
