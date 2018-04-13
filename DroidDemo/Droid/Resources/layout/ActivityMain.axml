@@ -4,17 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <Button
-        android:id="@+id/ActivityMain_Button_Images1"
+        android:id="@+id/ActivityMain_Button_Image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Images stay in memory"
+        android:text="Normal imageviews"
         android:layout_marginTop="20dp"
-        android:gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal" />
     <Button
-        android:id="@+id/ActivityMain_Button_Images2"
+        android:id="@+id/ActivityMain_Button_CustomImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Images stay in memory"
+        android:text="Custom imageviews"
         android:layout_marginTop="20dp"
-        android:gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal" />
 </LinearLayout>

@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("Ordina.Techorama_2018.Memory.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("Ordina.Techorama.Memory.Droid.Resource", IsApplication=true)]
 
-namespace Ordina.Techorama_2018.Memory.Droid
+namespace Ordina.Techorama.Memory.Droid
 {
 	
 	
@@ -887,43 +887,46 @@ namespace Ordina.Techorama_2018.Memory.Droid
 		{
 			
 			// aapt resource value: 0x7f0a003e
-			public const int abc_background_cache_hint_selector_material_dark = 2131361854;
+			public const int MainColor = 2131361854;
 			
 			// aapt resource value: 0x7f0a003f
-			public const int abc_background_cache_hint_selector_material_light = 2131361855;
+			public const int abc_background_cache_hint_selector_material_dark = 2131361855;
 			
 			// aapt resource value: 0x7f0a0040
-			public const int abc_btn_colored_borderless_text_material = 2131361856;
+			public const int abc_background_cache_hint_selector_material_light = 2131361856;
 			
 			// aapt resource value: 0x7f0a0041
-			public const int abc_btn_colored_text_material = 2131361857;
+			public const int abc_btn_colored_borderless_text_material = 2131361857;
 			
 			// aapt resource value: 0x7f0a0042
-			public const int abc_color_highlight_material = 2131361858;
+			public const int abc_btn_colored_text_material = 2131361858;
 			
 			// aapt resource value: 0x7f0a0043
-			public const int abc_hint_foreground_material_dark = 2131361859;
+			public const int abc_color_highlight_material = 2131361859;
 			
 			// aapt resource value: 0x7f0a0044
-			public const int abc_hint_foreground_material_light = 2131361860;
+			public const int abc_hint_foreground_material_dark = 2131361860;
+			
+			// aapt resource value: 0x7f0a0045
+			public const int abc_hint_foreground_material_light = 2131361861;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int abc_input_method_navigation_guard = 2131361792;
 			
-			// aapt resource value: 0x7f0a0045
-			public const int abc_primary_text_disable_only_material_dark = 2131361861;
-			
 			// aapt resource value: 0x7f0a0046
-			public const int abc_primary_text_disable_only_material_light = 2131361862;
+			public const int abc_primary_text_disable_only_material_dark = 2131361862;
 			
 			// aapt resource value: 0x7f0a0047
-			public const int abc_primary_text_material_dark = 2131361863;
+			public const int abc_primary_text_disable_only_material_light = 2131361863;
 			
 			// aapt resource value: 0x7f0a0048
-			public const int abc_primary_text_material_light = 2131361864;
+			public const int abc_primary_text_material_dark = 2131361864;
 			
 			// aapt resource value: 0x7f0a0049
-			public const int abc_search_url_text = 2131361865;
+			public const int abc_primary_text_material_light = 2131361865;
+			
+			// aapt resource value: 0x7f0a004a
+			public const int abc_search_url_text = 2131361866;
 			
 			// aapt resource value: 0x7f0a0001
 			public const int abc_search_url_text_normal = 2131361793;
@@ -934,29 +937,29 @@ namespace Ordina.Techorama_2018.Memory.Droid
 			// aapt resource value: 0x7f0a0003
 			public const int abc_search_url_text_selected = 2131361795;
 			
-			// aapt resource value: 0x7f0a004a
-			public const int abc_secondary_text_material_dark = 2131361866;
-			
 			// aapt resource value: 0x7f0a004b
-			public const int abc_secondary_text_material_light = 2131361867;
+			public const int abc_secondary_text_material_dark = 2131361867;
 			
 			// aapt resource value: 0x7f0a004c
-			public const int abc_tint_btn_checkable = 2131361868;
+			public const int abc_secondary_text_material_light = 2131361868;
 			
 			// aapt resource value: 0x7f0a004d
-			public const int abc_tint_default = 2131361869;
+			public const int abc_tint_btn_checkable = 2131361869;
 			
 			// aapt resource value: 0x7f0a004e
-			public const int abc_tint_edittext = 2131361870;
+			public const int abc_tint_default = 2131361870;
 			
 			// aapt resource value: 0x7f0a004f
-			public const int abc_tint_seek_thumb = 2131361871;
+			public const int abc_tint_edittext = 2131361871;
 			
 			// aapt resource value: 0x7f0a0050
-			public const int abc_tint_spinner = 2131361872;
+			public const int abc_tint_seek_thumb = 2131361872;
 			
 			// aapt resource value: 0x7f0a0051
-			public const int abc_tint_switch_track = 2131361873;
+			public const int abc_tint_spinner = 2131361873;
+			
+			// aapt resource value: 0x7f0a0052
+			public const int abc_tint_switch_track = 2131361874;
 			
 			// aapt resource value: 0x7f0a0004
 			public const int accent_material_dark = 2131361796;
@@ -1120,11 +1123,11 @@ namespace Ordina.Techorama_2018.Memory.Droid
 			// aapt resource value: 0x7f0a0036
 			public const int switch_thumb_disabled_material_light = 2131361846;
 			
-			// aapt resource value: 0x7f0a0052
-			public const int switch_thumb_material_dark = 2131361874;
-			
 			// aapt resource value: 0x7f0a0053
-			public const int switch_thumb_material_light = 2131361875;
+			public const int switch_thumb_material_dark = 2131361875;
+			
+			// aapt resource value: 0x7f0a0054
+			public const int switch_thumb_material_light = 2131361876;
 			
 			// aapt resource value: 0x7f0a0037
 			public const int switch_thumb_normal_material_dark = 2131361847;
@@ -1770,11 +1773,11 @@ namespace Ordina.Techorama_2018.Memory.Droid
 			// aapt resource value: 0x7f02005a
 			public const int notification_icon_background = 2130837594;
 			
-			// aapt resource value: 0x7f02005f
-			public const int notification_template_icon_bg = 2130837599;
-			
 			// aapt resource value: 0x7f020060
-			public const int notification_template_icon_low_bg = 2130837600;
+			public const int notification_template_icon_bg = 2130837600;
+			
+			// aapt resource value: 0x7f020061
+			public const int notification_template_icon_low_bg = 2130837601;
 			
 			// aapt resource value: 0x7f02005b
 			public const int notification_tile_bg = 2130837595;
@@ -1787,6 +1790,9 @@ namespace Ordina.Techorama_2018.Memory.Droid
 			
 			// aapt resource value: 0x7f02005e
 			public const int tooltip_frame_light = 2130837598;
+			
+			// aapt resource value: 0x7f02005f
+			public const int Xamarin = 2130837599;
 			
 			static Drawable()
 			{
@@ -1805,10 +1811,13 @@ namespace Ordina.Techorama_2018.Memory.Droid
 			public const int ALT = 2131427364;
 			
 			// aapt resource value: 0x7f0b0066
-			public const int ActivityMain_Button_Images1 = 2131427430;
+			public const int ActivityImage_LinearLayout_ImageContainer = 2131427430;
+			
+			// aapt resource value: 0x7f0b0068
+			public const int ActivityMain_Button_CustomImage = 2131427432;
 			
 			// aapt resource value: 0x7f0b0067
-			public const int ActivityMain_Button_Images2 = 2131427431;
+			public const int ActivityMain_Button_Image = 2131427431;
 			
 			// aapt resource value: 0x7f0b0025
 			public const int CTRL = 2131427365;
@@ -1825,8 +1834,8 @@ namespace Ordina.Techorama_2018.Memory.Droid
 			// aapt resource value: 0x7f0b0029
 			public const int SYM = 2131427369;
 			
-			// aapt resource value: 0x7f0b006b
-			public const int action0 = 2131427435;
+			// aapt resource value: 0x7f0b006c
+			public const int action0 = 2131427436;
 			
 			// aapt resource value: 0x7f0b0057
 			public const int action_bar = 2131427415;
@@ -1849,17 +1858,17 @@ namespace Ordina.Techorama_2018.Memory.Droid
 			// aapt resource value: 0x7f0b0035
 			public const int action_bar_title = 2131427381;
 			
-			// aapt resource value: 0x7f0b0068
-			public const int action_container = 2131427432;
+			// aapt resource value: 0x7f0b0069
+			public const int action_container = 2131427433;
 			
 			// aapt resource value: 0x7f0b0058
 			public const int action_context_bar = 2131427416;
 			
-			// aapt resource value: 0x7f0b006f
-			public const int action_divider = 2131427439;
+			// aapt resource value: 0x7f0b0070
+			public const int action_divider = 2131427440;
 			
-			// aapt resource value: 0x7f0b0069
-			public const int action_image = 2131427433;
+			// aapt resource value: 0x7f0b006a
+			public const int action_image = 2131427434;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int action_menu_divider = 2131427330;
@@ -1876,11 +1885,11 @@ namespace Ordina.Techorama_2018.Memory.Droid
 			// aapt resource value: 0x7f0b0037
 			public const int action_mode_close_button = 2131427383;
 			
-			// aapt resource value: 0x7f0b006a
-			public const int action_text = 2131427434;
+			// aapt resource value: 0x7f0b006b
+			public const int action_text = 2131427435;
 			
-			// aapt resource value: 0x7f0b0078
-			public const int actions = 2131427448;
+			// aapt resource value: 0x7f0b0079
+			public const int actions = 2131427449;
 			
 			// aapt resource value: 0x7f0b0038
 			public const int activity_chooser_view_content = 2131427384;
@@ -1909,14 +1918,14 @@ namespace Ordina.Techorama_2018.Memory.Droid
 			// aapt resource value: 0x7f0b003e
 			public const int buttonPanel = 2131427390;
 			
-			// aapt resource value: 0x7f0b006c
-			public const int cancel_action = 2131427436;
+			// aapt resource value: 0x7f0b006d
+			public const int cancel_action = 2131427437;
 			
 			// aapt resource value: 0x7f0b004e
 			public const int checkbox = 2131427406;
 			
-			// aapt resource value: 0x7f0b0074
-			public const int chronometer = 2131427444;
+			// aapt resource value: 0x7f0b0075
+			public const int chronometer = 2131427445;
 			
 			// aapt resource value: 0x7f0b002b
 			public const int collapseActionView = 2131427371;
@@ -1945,8 +1954,8 @@ namespace Ordina.Techorama_2018.Memory.Droid
 			// aapt resource value: 0x7f0b0022
 			public const int end = 2131427362;
 			
-			// aapt resource value: 0x7f0b007a
-			public const int end_padder = 2131427450;
+			// aapt resource value: 0x7f0b007b
+			public const int end_padder = 2131427451;
 			
 			// aapt resource value: 0x7f0b0039
 			public const int expand_activities_button = 2131427385;
@@ -1966,8 +1975,8 @@ namespace Ordina.Techorama_2018.Memory.Droid
 			// aapt resource value: 0x7f0b003d
 			public const int icon = 2131427389;
 			
-			// aapt resource value: 0x7f0b0079
-			public const int icon_group = 2131427449;
+			// aapt resource value: 0x7f0b007a
+			public const int icon_group = 2131427450;
 			
 			// aapt resource value: 0x7f0b002c
 			public const int ifRoom = 2131427372;
@@ -1975,8 +1984,8 @@ namespace Ordina.Techorama_2018.Memory.Droid
 			// aapt resource value: 0x7f0b003a
 			public const int image = 2131427386;
 			
-			// aapt resource value: 0x7f0b0075
-			public const int info = 2131427445;
+			// aapt resource value: 0x7f0b0076
+			public const int info = 2131427446;
 			
 			// aapt resource value: 0x7f0b0034
 			public const int italic = 2131427380;
@@ -1993,11 +2002,11 @@ namespace Ordina.Techorama_2018.Memory.Droid
 			// aapt resource value: 0x7f0b003c
 			public const int list_item = 2131427388;
 			
-			// aapt resource value: 0x7f0b006e
-			public const int media_actions = 2131427438;
+			// aapt resource value: 0x7f0b006f
+			public const int media_actions = 2131427439;
 			
-			// aapt resource value: 0x7f0b007b
-			public const int message = 2131427451;
+			// aapt resource value: 0x7f0b007c
+			public const int message = 2131427452;
 			
 			// aapt resource value: 0x7f0b0023
 			public const int middle = 2131427363;
@@ -2014,14 +2023,14 @@ namespace Ordina.Techorama_2018.Memory.Droid
 			// aapt resource value: 0x7f0b0010
 			public const int normal = 2131427344;
 			
-			// aapt resource value: 0x7f0b0077
-			public const int notification_background = 2131427447;
+			// aapt resource value: 0x7f0b0078
+			public const int notification_background = 2131427448;
+			
+			// aapt resource value: 0x7f0b0072
+			public const int notification_main_column = 2131427442;
 			
 			// aapt resource value: 0x7f0b0071
-			public const int notification_main_column = 2131427441;
-			
-			// aapt resource value: 0x7f0b0070
-			public const int notification_main_column_container = 2131427440;
+			public const int notification_main_column_container = 2131427441;
 			
 			// aapt resource value: 0x7f0b0040
 			public const int parentPanel = 2131427392;
@@ -2035,11 +2044,11 @@ namespace Ordina.Techorama_2018.Memory.Droid
 			// aapt resource value: 0x7f0b0050
 			public const int radio = 2131427408;
 			
-			// aapt resource value: 0x7f0b0076
-			public const int right_icon = 2131427446;
+			// aapt resource value: 0x7f0b0077
+			public const int right_icon = 2131427447;
 			
-			// aapt resource value: 0x7f0b0072
-			public const int right_side = 2131427442;
+			// aapt resource value: 0x7f0b0073
+			public const int right_side = 2131427443;
 			
 			// aapt resource value: 0x7f0b001b
 			public const int screen = 2131427355;
@@ -2113,8 +2122,8 @@ namespace Ordina.Techorama_2018.Memory.Droid
 			// aapt resource value: 0x7f0b001e
 			public const int src_over = 2131427358;
 			
-			// aapt resource value: 0x7f0b006d
-			public const int status_bar_latest_event_content = 2131427437;
+			// aapt resource value: 0x7f0b006e
+			public const int status_bar_latest_event_content = 2131427438;
 			
 			// aapt resource value: 0x7f0b0051
 			public const int submenuarrow = 2131427409;
@@ -2140,8 +2149,8 @@ namespace Ordina.Techorama_2018.Memory.Droid
 			// aapt resource value: 0x7f0b0044
 			public const int textSpacerNoTitle = 2131427396;
 			
-			// aapt resource value: 0x7f0b0073
-			public const int time = 2131427443;
+			// aapt resource value: 0x7f0b0074
+			public const int time = 2131427444;
 			
 			// aapt resource value: 0x7f0b000e
 			public const int title = 2131427342;
@@ -2293,67 +2302,70 @@ namespace Ordina.Techorama_2018.Memory.Droid
 			public const int abc_select_dialog_material = 2130968601;
 			
 			// aapt resource value: 0x7f04001a
-			public const int ActivityMain = 2130968602;
+			public const int ActivityImage = 2130968602;
 			
 			// aapt resource value: 0x7f04001b
-			public const int notification_action = 2130968603;
+			public const int ActivityMain = 2130968603;
 			
 			// aapt resource value: 0x7f04001c
-			public const int notification_action_tombstone = 2130968604;
+			public const int notification_action = 2130968604;
 			
 			// aapt resource value: 0x7f04001d
-			public const int notification_media_action = 2130968605;
+			public const int notification_action_tombstone = 2130968605;
 			
 			// aapt resource value: 0x7f04001e
-			public const int notification_media_cancel_action = 2130968606;
+			public const int notification_media_action = 2130968606;
 			
 			// aapt resource value: 0x7f04001f
-			public const int notification_template_big_media = 2130968607;
+			public const int notification_media_cancel_action = 2130968607;
 			
 			// aapt resource value: 0x7f040020
-			public const int notification_template_big_media_custom = 2130968608;
+			public const int notification_template_big_media = 2130968608;
 			
 			// aapt resource value: 0x7f040021
-			public const int notification_template_big_media_narrow = 2130968609;
+			public const int notification_template_big_media_custom = 2130968609;
 			
 			// aapt resource value: 0x7f040022
-			public const int notification_template_big_media_narrow_custom = 2130968610;
+			public const int notification_template_big_media_narrow = 2130968610;
 			
 			// aapt resource value: 0x7f040023
-			public const int notification_template_custom_big = 2130968611;
+			public const int notification_template_big_media_narrow_custom = 2130968611;
 			
 			// aapt resource value: 0x7f040024
-			public const int notification_template_icon_group = 2130968612;
+			public const int notification_template_custom_big = 2130968612;
 			
 			// aapt resource value: 0x7f040025
-			public const int notification_template_lines_media = 2130968613;
+			public const int notification_template_icon_group = 2130968613;
 			
 			// aapt resource value: 0x7f040026
-			public const int notification_template_media = 2130968614;
+			public const int notification_template_lines_media = 2130968614;
 			
 			// aapt resource value: 0x7f040027
-			public const int notification_template_media_custom = 2130968615;
+			public const int notification_template_media = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int notification_template_part_chronometer = 2130968616;
+			public const int notification_template_media_custom = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int notification_template_part_time = 2130968617;
+			public const int notification_template_part_chronometer = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int select_dialog_item_material = 2130968618;
+			public const int notification_template_part_time = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int select_dialog_multichoice_material = 2130968619;
+			public const int select_dialog_item_material = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int select_dialog_singlechoice_material = 2130968620;
+			public const int select_dialog_multichoice_material = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int support_simple_spinner_dropdown_item = 2130968621;
+			public const int select_dialog_singlechoice_material = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int tooltip = 2130968622;
+			public const int support_simple_spinner_dropdown_item = 2130968622;
+			
+			// aapt resource value: 0x7f04002f
+			public const int tooltip = 2130968623;
 			
 			static Layout()
 			{
@@ -2471,12 +2483,6 @@ namespace Ordina.Techorama_2018.Memory.Droid
 			// aapt resource value: 0x7f060010
 			public const int abc_toolbar_collapse_description = 2131099664;
 			
-			// aapt resource value: 0x7f060020
-			public const int app_name = 2131099680;
-			
-			// aapt resource value: 0x7f06001f
-			public const int hello = 2131099679;
-			
 			// aapt resource value: 0x7f060011
 			public const int search_menu_title = 2131099665;
 			
@@ -2510,6 +2516,9 @@ namespace Ordina.Techorama_2018.Memory.Droid
 			
 			// aapt resource value: 0x7f080099
 			public const int Animation_AppCompat_Tooltip = 2131230873;
+			
+			// aapt resource value: 0x7f080162
+			public const int ApplicationBaseTheme = 2131231074;
 			
 			// aapt resource value: 0x7f08009a
 			public const int Base_AlertDialog_AppCompat = 2131230874;
@@ -2985,6 +2994,9 @@ namespace Ordina.Techorama_2018.Memory.Droid
 			// aapt resource value: 0x7f08007e
 			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131230846;
 			
+			// aapt resource value: 0x7f080164
+			public const int ButtonBaseTheme = 2131231076;
+			
 			// aapt resource value: 0x7f08001e
 			public const int Platform_AppCompat = 2131230750;
 			
@@ -3251,6 +3263,9 @@ namespace Ordina.Techorama_2018.Memory.Droid
 			
 			// aapt resource value: 0x7f0800f8
 			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131230968;
+			
+			// aapt resource value: 0x7f080163
+			public const int TextViewBaseTheme = 2131231075;
 			
 			// aapt resource value: 0x7f0800f9
 			public const int Theme_AppCompat = 2131230969;
