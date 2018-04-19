@@ -101,6 +101,14 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="ViewControllers\MainViewController.cs" />
+    <Compile Include="ViewControllers\GalleryViewController.cs" />
+    <Compile Include="ViewControllers\ImageViewController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Microsoft.png" />
+    <BundleResource Include="Resources\Ordina.png" />
+    <BundleResource Include="Resources\Os.png" />
+    <BundleResource Include="Resources\Xamarin.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
