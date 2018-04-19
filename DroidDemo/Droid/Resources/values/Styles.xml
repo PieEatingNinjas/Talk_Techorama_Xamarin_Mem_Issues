@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style
+        name="ApplicationBaseTheme"
+        parent="Theme.AppCompat.Light">
+        <item
+            name="android:textViewStyle">@style/TextViewBaseTheme</item>
+        <item
+            name="android:buttonStyle">@style/ButtonBaseTheme</item>
+    </style>
+    <style
+        name="TextViewBaseTheme"
+        parent="android:Widget.TextView">
+        <item
+            name="android:textColor">@android:color/black</item>
+    </style>
+    <style
+        name="ButtonBaseTheme"
+        parent="android:style/Widget.Button">
+        <item
+            name="android:background">@android:color/transparent</item>
+        <item
+            name="android:textColor">@color/MainColor</item>
+    </style>
+</resources>

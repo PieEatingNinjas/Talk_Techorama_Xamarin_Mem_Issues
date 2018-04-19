@@ -3,5 +3,5 @@
 	<uses-sdk android:minSdkVersion="21" />
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 	<uses-permission android:name="android.permission.INTERNET" />
-	<application android:label="Ordina.Techorama.Memory.XamForms"></application>
+	<application android:label="Forms demo" android:icon="@drawable/icon"></application>
 </manifest>
