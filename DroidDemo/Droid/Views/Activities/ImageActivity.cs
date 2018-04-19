@@ -29,7 +29,7 @@ namespace Ordina.Techorama.Memory.Droid.Views.Activities
             if (Intent?.HasExtra(UseCustomImageviewKey) == true)
                 useCustomImageViews = Intent.GetBooleanExtra(UseCustomImageviewKey, false);
 
-            for (int i = 0; i < (useCustomImageViews ? 20 : 50); i++)
+            for (int i = 0; i < 5; i++)
             {
                 ImageView imageView = null;
 
@@ -48,7 +48,28 @@ namespace Ordina.Techorama.Memory.Droid.Views.Activities
 
                 imageView.SetScaleType(ImageView.ScaleType.FitXy);
 
-                imageView.SetImageResource(Resource.Drawable.Xamarin);
+                var resId = 0;
+
+                switch (i)
+                {
+                    case 0:
+                        resId = Resource.Drawable.Techorama;
+                        break;
+                    case 1:
+                        resId = Resource.Drawable.Xamarin;
+                        break;
+                    case 2:
+                        resId = Resource.Drawable.Os;
+                        break;
+                    case 3:
+                        resId = Resource.Drawable.Ordina;
+                        break;
+                    case 4:
+                        resId = Resource.Drawable.Microsoft;
+                        break;
+                }
+
+                imageView.SetImageResource(resId);
 
                 _imageContainer.AddView(imageView);
             }
@@ -95,6 +116,7 @@ namespace Ordina.Techorama.Memory.Droid.Views.Activities
 
                 _imageContainer = null;
 
+                //This is here just to prove that with normal imageviews the drawables are not disposed correctly
                 GC.Collect();
             }
 

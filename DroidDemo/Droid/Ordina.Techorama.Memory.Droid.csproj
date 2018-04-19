@@ -109,6 +109,10 @@
         <AndroidResource Include="Resources\drawable\Xamarin.png" />
         <AndroidResource Include="Resources\values\Styles.xml" />
         <AndroidResource Include="Resources\values\Colors.xml" />
+        <AndroidResource Include="Resources\drawable\Microsoft.png" />
+        <AndroidResource Include="Resources\drawable\Ordina.png" />
+        <AndroidResource Include="Resources\drawable\Os.png" />
+        <AndroidResource Include="Resources\drawable\Techorama.jpeg" />
     </ItemGroup>
     <ItemGroup>
         <Folder Include="Resources\drawable\" />
